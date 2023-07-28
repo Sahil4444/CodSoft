@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+.header .links ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .links ul li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.header .links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .links ul li a:hover{
+    color: blue;
+}
+
+#logo_img{
+    width: 400px;
+    height: 200px;
+    border: 0 none ;
+}
+
+#header_description{
+    padding: 20px 50px;
+    text-align: left;
+}
+
+#portfolios img{
+    width: 40px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+#header_description{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_description .desc_ele{
+    padding: 30px;
+}
+
+#header_description .desc_ele h1, #header_description .desc_ele p, #portfolios{
+    margin-bottom: 30px;
+}
+
+#portfolios img{
+    margin-right: 15px;
+}
+
+#header_btn button{
+    margin-right: 10px;
+}
+
+#left_desc{
+    width: 60%;
+    text-align: left;
+    font-size: 20px;
+}
+
+#right_desc img{
+    width: 600px;
+}
+
+#work{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 40px;
+}
+
+#work_desc{
+    text-align: left;
+}
+
+#web_technologies{
+    width: 400px;
+}
+
+#work_photo{
+    width: 500px;
+}
+
+#prof{
+    padding: 30px 40px;
+}
+
+#proficiency{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+#prof h1{
+    margin: 0;
+}
+
+#proficiency .pro_ele{
+    width: 50%;
+}
+
+#prof_img{
+    width: 600px;
+}
+
+#prof_sub .progress{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#prof_level{
+    text-align: end;
+}
+
+#Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+#Project h1{
+    align-self: start;
+}
+
+#Project .project_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#Project .project_row a{
+    text-decoration: none;
+    color:#333;
+}
+
+#project_row1 a{
+    background-color:#E8FFCE;
+    margin: 10px;
+    box-shadow: 20px;
+    padding: 15px 10px;
+    width: 45%;
+}
+
+#project_row1 a:hover{
+    background-color: darkcyan;
+    color: #fff;
+}
+
+#project_row1 .row1_col .header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7px 30px;
+}
+
+#project_row1 .row1_col .header span{
+    font-size: 20px;
+}
+
+#project_row1 .row1_col .header .heading{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#project_row1 .row1_col .header .heading .repo{
+    margin-right: 10px;
+}
+
+#project_row1 .row1_col .header .desc{
+    margin-top: 10px;
+}
+
+.more_btn{
+    text-decoration: none;
+    color: white;
+    background-color:darkcyan;
+    color: #fff;
+    font-size: 15px;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.more_btn:hover{
+    color: black;
+}
+
+#certification{
+    padding: 30px 40px;
+}
+
+#cards-certificate{
+    margin-top: 25px;
+    padding: 10px 15px;
+}
+
+#cards-certificate .card{
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+}
+
+#cards-certificate .card img{
+    width: 300px;
+}
+
+#cards-certificate .card .card-body{
+    border-top: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+#cards-certificate .card .card-body a{
+    color: black;
+}
+
+#cards-certificate .card .card-body a:hover{
+    color: blue;
+}
+
+.more{
+    text-align: center;
+}
+
+#blogs{
+    padding: 30px 40px;
+}
+
+#blogs .blog{
+    text-align: center;
+    padding: 10px 15px;
+}
+
+#posts{
+    padding: 30px 40px;
+}
+
+#posts .post{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#posts .post iframe{
+    margin-right: 10px;
+}
+
+#reach-out{
+    padding: 30px 40px;
+}
+
+#reach-out h1{
+    margin-bottom: 0;
+}
+
+#reach-out .desc{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#reach-out .desc img{
+    width: 250px;
+    border-radius: 30px;
+}
+
+#reach-out .desc p{
+    font-size: 25px;
+}
+
+#reach-out .location,#reach-out .open,#portfolios{
+    padding: 10px 15px;
+}
+
+#footer{
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}

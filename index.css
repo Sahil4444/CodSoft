@@ -1,0 +1,15 @@
+body{
+    box-sizing: border-box;
+}
+
+body .page{
+    display: flex;
+}
+
+body .page .sidebar{
+    width: 20%;
+}
+
+body .page .mainPage{
+    width: 80%;
+}
